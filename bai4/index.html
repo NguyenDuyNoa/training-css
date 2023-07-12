@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <style>
+        .shrink-box {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 500px;
+            height: 500px;
+            background-color: gray;
+            color: white;
+            transition: transform 0.3s ease;
+            font-size: 150px;
+        }
+
+        .shrink-box:hover {
+            transform: scale(0.8);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shrink-box">Shrink</div>
+</body>
+</html>
